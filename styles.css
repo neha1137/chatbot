@@ -1,0 +1,72 @@
+body {
+    background-image: url('farm-background.jpg'); /* Add a farming background image */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 2px solid #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f0fff0;
+}
+
+.input-area {
+    display: flex;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.chat-message {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.user-message {
+    background: #d4edda;
+    text-align: right;
+}
+
+.bot-message {
+    background: #fff3cd;
+    text-align: left;
+}
